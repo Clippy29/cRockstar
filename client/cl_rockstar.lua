@@ -1,0 +1,1 @@
+Rockstar=Rockstar or{}if GetCurrentResourceName()~="cRockstar"then return end;RegisterKeyMapping("stream","Filmer Rockstar Editor","keyboard","F3")RegisterCommand("stream",function()if IsRecording()then return StopRecordingAndSaveClip()end;StartRecording(1)end)
